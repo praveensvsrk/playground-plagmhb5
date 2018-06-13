@@ -9,6 +9,10 @@ The source code is on [GitHub](https://github.com/TechDotIO/python-template), pl
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
 
+```python runnable
+import pygame
+```
+
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/python-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
 # Template Resources

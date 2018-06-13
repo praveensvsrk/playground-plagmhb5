@@ -10,10 +10,13 @@ The source code is on [GitHub](https://github.com/TechDotIO/python-template), pl
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
 
 ```python runnable
-import pip
+try:
+    from pip import main as pipmain
+except:
+    from pip._internal import main as pipmain
 
 def install(package):
-    pip.main(['install', package])
+    pipmain(['install', package])
     
 install('pygame')
 import pygame
